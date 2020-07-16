@@ -1,0 +1,40 @@
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import Employee from './components/Employee/Employee';
+
+
+
+function App() {
+  let x = 30;
+  return (
+    <div className="App">
+      <div>
+        <Employee name="Siva" age={x} />
+      </div>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <p>
+          Developed by Siva Adabala...
+        </p>
+
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+
+    </div>
+
+
+  );
+}
+
+export default App;
